@@ -7,12 +7,13 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
     # Profile information
     name: Quan Jiang
-    tagline: (quan jiang)<br>蒋铨<br>C++ Engineer <br>NQC, Guangzhou # <br><a href="http://www.lamda.nju.edu.cn/">LAMDA Group</a><br><a href="https://www.nju.edu.cn"> Nanjing University</a>
+    tagline: (quan jiang)<br>蒋铨<br>C++ Engineer <br>Wisonic, Shenzhen # <br>
     avatar: jq.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     # Sidebar links
-    email: 384414031@qq.com，eng_jq@nqctek.com
+    email: 384414031@qq.com，aapool@outlook.com
     phone:
     website: followtheart.github.io # do not add http://
+    orcid: orcid.org/0009-0000-2197-7791
     linkedin:
     xing:
     github: github.com/followtheart
@@ -39,7 +40,7 @@ career-profile:
     
       I received my B.Sc. degree from the Department of Computer Science and Technology, Nanjing Agricultural University in 2013.
       
-      Currently, I am a C++ engineer at NQCTEK.
+      Currently, I am a C++ engineer at Wisonic.
       
       I am interested in machine learning and data mining.
       Currently, I am mainly focusing on:
