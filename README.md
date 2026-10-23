@@ -1,3 +1,13 @@
+## Personal profile
+
+The profile is available in English at `/` and in Chinese at `/zh/`, with a language switch on both pages. Both versions are rendered by Jekyll and work without JavaScript.
+
+- Edit `_data/data.yml` for English content and the shared publication bibliography.
+- Edit `_data/data_zh.yml` for Chinese content. Keep roles, employment dates, project scope, and accomplishments consistent between languages.
+- Shared page structure lives in `_includes/profile-content.html`; section labels and metadata come from the selected language data.
+
+The profile content was updated from the June 26, 2026 resume. Work dates marked as current follow that source.
+
 <a href="https://jekyll-themes.com">
 <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
 </a>
@@ -31,7 +41,7 @@ I have made this into a Jekyll Theme. Checkout the live demo [here](https://webj
 * Go to settings and set Github Pages source as master.
 * Your new site should be ready at `https://username.github.io/online-cv/`
 
-Change all the details from one place: ``_data/data.yml``
+Update the English profile in ``_data/data.yml`` and the Chinese profile in ``_data/data_zh.yml``.
 
 Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
 

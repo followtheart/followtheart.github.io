@@ -1,0 +1,110 @@
+# 中文资料。事实内容与 data.yml 保持一致，论文书目信息共用英文版本。
+meta:
+  title: 蒋铨 | 端侧 AI 与 C++ 系统研发
+  description: 蒋铨，专注端侧 AI、分布式推理与高性能 C++ 系统研发，自 2013 年从事软件开发，具备算法研究与工程交付经验。
+
+labels:
+  language_switch: 页面语言
+  portrait: 蒋铨的照片
+  education: 教育经历
+  languages: 语言能力
+  interests: 个人兴趣
+  experiences: 工作经历
+
+sidebar:
+  about: false
+  education: true
+  name: 蒋铨
+  tagline: Quan Jiang<br>端侧 AI · C++ 系统研发<br>中国 · 广州
+  avatar: jq.jpg
+  email: aapool@outlook.com
+  secondary_email: 384414031@qq.com
+  website: followtheart.github.io
+  orcid: orcid.org/0009-0000-2197-7791
+  github: github.com/followtheart
+  languages:
+    - idiom: 中文
+      level: 母语
+    - idiom: 英语
+      level: 大学英语六级
+  interests:
+    - item: 乒乓球
+    - item: 绘画
+
+career-profile:
+  title: 个人简介
+  summary: |
+    专注于**端侧人工智能、高性能计算与 C++ 系统研发**。自 2013 年从事软件开发，积累了计算机视觉、医疗影像、量子通信软件与规模化客户端的研发经验，持续将算法能力转化为可部署、可维护的工程系统。
+
+    现任**天翼数字生活科技有限公司端侧 AI 工程师**，负责端侧视觉算法研发与部署，维护服务**数十万用户**的「数字乡村」客户端，并参与智能体系统设计与开发。工程实践覆盖算法实现、异构计算性能优化，以及软件架构、模块化与持续交付。
+
+    研究兴趣集中于**模型压缩、边缘分布式推理与鲁棒性**，围绕 CNN 与 Transformer 的分布式推理开展学术合作，以共同作者身份在 **ASP-DAC、IEEE TCAD、Integration** 发表三篇论文。本科毕业于南京农业大学计算机科学与技术专业。
+
+education:
+  - degree: 计算机科学与技术 · 本科
+    university: 南京农业大学
+    time: 2009.09 - 2013.06
+
+experiences:
+  - role: 端侧 AI 工程师
+    time: 2025.04 - 至今
+    company: 天翼数字生活科技有限公司
+    details: |
+      - 负责端侧视觉算法的研发、部署与维护，覆盖图像分类、超分辨率、图像上色与文搜图等场景。
+      - 负责「数字乡村」客户端的维护与迭代开发，支撑数十万用户使用，持续保障线上稳定性与功能演进。
+      - 参与智能体系统的设计与开发，推动大模型能力在端侧及业务场景中的工程化落地。
+  - role: 高级 C++ 开发工程师
+    time: 2024.06 - 2025.01
+    company: 深圳华声医疗技术股份有限公司 · Wisonic
+    details: |
+      - 参与彩色多普勒心脏超声产品研发，负责 OpenCL、OpenGL 与 CPU 混合异构计算的图像处理性能调优，涵盖 OpenCL Kernel 与 CUDA 算子优化。
+      - 主导基于 Conan 的超声软件模块化与版本管理，提升大型软件系统的可维护性与交付效率。
+  - role: C++ 开发工程师
+    time: 2022.08 - 2024.06
+    company: 国腾（广州）量子计算科技有限公司
+    details: |
+      - 负责广佛肇量子通信干线项目全套软件研发，覆盖 QKD、QKM、QKMS 与上位机系统。
+      - 负责密钥管理软件的架构设计与实现，基于 C++/Qt、gRPC 与 HP-Socket 实现 Windows、Linux 跨平台通信，并通过 SPI/UART 对接底层硬件。
+  - role: 配置管理工程师（SCM）
+    time: 2022.01 - 2022.08
+    company: 南京中科创达软件科技有限公司 · ThunderSoft
+    details: |
+      - 搭建并维护 Jenkins 持续集成系统，编写日常构建与验证构建脚本，负责项目集成编译。
+      - 搭建 OpenGrok、Gerrit 代码管理系统，维护代码提交门禁并接入 Coverity 安全扫描，保障研发流程中的代码质量。
+  - role: 软件研发工程师
+    time: 2013.05 - 2022.01
+    company: 南京西湾信息科技有限公司
+    details: |
+      - 负责产品技术原型设计、技术难题攻关与系统接口设计，协调团队间的技术接口与集成。
+      - 主导人脸识别系统（Gabor + PCA）、基于消息队列的高并发期货交易引擎等原型研发，并开展比特币源码分析，涉及 Qt、Boost、LevelDB 与 OpenSSL。
+
+publications:
+  title: 学术论文
+
+projects:
+  title: 代表项目与研究
+  assignments:
+    - title: 边缘分布式 AI 推理鲁棒性研究
+      tagline: 围绕 CNN 与 Transformer 的边缘分布式推理开展学术合作，研究模型与系统鲁棒性，相关成果发表于 ASP-DAC、IEEE TCAD 与 Integration。
+    - title: 彩色多普勒超声图像异构计算优化
+      tagline: 2024.06 - 2025.01 · 基于 C++/Qt、CUDA 与 OpenCL，在 Windows 平台实现超声图像采集、存储与计算，负责性能调优及基于 Conan 的模块化。
+    - title: 广佛肇量子通信干线
+      tagline: 2022.08 - 2024.06 · 负责密钥通信与管理软件的架构设计和开发，基于 C++/Qt、gRPC 与 HP-Socket 实现 Windows、Linux 跨平台运行。
+    - title: 模拟期货交易平台
+      tagline: 2019.03 - 2020.03 · 负责 C++ 后台接口开发，实现模拟交易引擎与外部接口对接，支持 Linux、Windows 跨平台运行。
+    - title: 人脸识别软件系统
+      tagline: 2013.06 - 2015.03 · 基于 OpenCV 实现人脸识别，运用 PCA、LDA 进行特征降维与分类。
+
+skills:
+  title: 技术能力
+  toolset:
+    - name: C++ 与系统研发
+      details: C++、C、Python、Boost、Qt；Linux 与 Windows 跨平台开发。
+    - name: 人工智能与计算机视觉
+      details: PyTorch、TensorFlow、OpenCV；CNN、Transformer、Mamba；模型剪枝、分布式推理与鲁棒性。
+    - name: 异构计算与性能优化
+      details: OpenCL、CUDA、OpenGL；面向图像计算的 Kernel 与算子优化。
+    - name: 通信与中间件
+      details: gRPC、HP-Socket、ZeroMQ、SNMP、MySQL；SPI/UART 硬件通信。
+    - name: 工程化与交付
+      details: Conan、Jenkins、Gerrit、OpenGrok、Coverity；模块化、版本管理与持续集成。

@@ -1,10 +1,11 @@
-{% assign sidebar = site.data.data.sidebar %}
+{% assign sidebar = profile.sidebar %}
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
+    {% include language-switch.html %}
 
     {% if sidebar.name %}
-    <img class="avatar" src="assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <img class="avatar" src="{{ '/assets/images/' | append: sidebar.avatar | relative_url }}" alt="{{ profile.labels.portrait }}" />
     {% endif %}
 
     {% if sidebar.name %}

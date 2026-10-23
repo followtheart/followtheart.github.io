@@ -1,67 +1,120 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+# English profile. Keep factual content aligned with data_zh.yml.
+meta:
+  title: Quan Jiang | Edge AI & C++ Engineering
+  description: Quan Jiang (蒋铨), an engineer focused on edge AI, distributed inference, and high-performance C++ systems, with software development experience since 2013.
+
+labels:
+  language_switch: Profile language
+  portrait: Portrait of Quan Jiang
+  education: Education
+  languages: Languages
+  interests: Interests
+  experiences: Professional Experience
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-    # Profile information
-    name: Quan Jiang
-    tagline: (quan jiang)<br>蒋铨<br>C++ Engineer <br>Wisonic, Shenzhen # <br>
-    avatar: jq.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    # Sidebar links
-    email: 384414031@qq.com，aapool@outlook.com
-    phone:
-    website: followtheart.github.io # do not add http://
-    orcid: orcid.org/0009-0000-2197-7791
-    linkedin:
-    xing:
-    github: github.com/followtheart
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    languages:
-      - idiom: Chinese
-        level: Native
-      - idiom: English
-    interests:
-      - item: PingPong
-        link: 
-      - item: Painting
+  about: false
+  education: true
+  name: Quan Jiang
+  tagline: 蒋铨<br>Edge AI & C++ Engineering<br>Guangzhou, China
+  avatar: jq.jpg
+  email: aapool@outlook.com
+  secondary_email: 384414031@qq.com
+  website: followtheart.github.io
+  orcid: orcid.org/0009-0000-2197-7791
+  github: github.com/followtheart
+  languages:
+    - idiom: Chinese
+      level: Native
+    - idiom: English
+      level: CET-6
+  interests:
+    - item: Table Tennis
+    - item: Painting
 
 career-profile:
-    title: Biography
-    summary: |
-    
-    
-      I received my B.Sc. degree from the Department of Computer Science and Technology, Nanjing Agricultural University in 2013.
-      
-      Currently, I am a C++ engineer at Wisonic.
-      
-      I am interested in machine learning and data mining.
-      Currently, I am mainly focusing on:
-      - Neural Network Pruning
-      
-      I am also interested in:
-      - Face Recognition
+  title: Profile
+  summary: |
+    I work at the intersection of **edge AI, high-performance computing, and C++ systems engineering**. Since starting my software development career in 2013, I have built experience across computer vision, medical imaging, quantum communication software, and production client applications.
+
+    At **Tianyi Digital Life Technology Co., Ltd.**, I develop and deploy on-device vision algorithms, maintain a Digital Village client serving **hundreds of thousands of users**, and contribute to AI agent systems. My engineering work spans algorithm implementation, heterogeneous computing optimization, and software architecture and delivery.
+
+    My research interests center on **model compression, distributed inference, and robustness at the edge**. I have co-authored three papers published at **ASP-DAC**, in **IEEE TCAD**, and in **Integration**, studying distributed CNN and Transformer inference. I hold a B.Sc. in Computer Science and Technology from Nanjing Agricultural University.
 
 education:
-    - degree: B.Sc. in Computer Science and Technology
-      university: Nanjing Agricultural University
-      time: 2009 - 2013
+  - degree: B.Sc. in Computer Science and Technology
+    university: Nanjing Agricultural University
+    time: 2009.09 - 2013.06
+
+experiences:
+  - role: Edge AI Engineer
+    time: 2025.04 - Present
+    company: Tianyi Digital Life Technology Co., Ltd. · 天翼数字生活
+    details: |
+      - Develop and deploy on-device vision algorithms for image classification, super-resolution, colorization, and text-to-image retrieval.
+      - Maintain and evolve the Digital Village client, supporting hundreds of thousands of users with ongoing feature development and production stability work.
+      - Contribute to the design and development of AI agent systems, bringing large language model capabilities into device and business applications.
+  - role: Senior C++ Development Engineer
+    time: 2024.06 - 2025.01
+    company: Wisonic · 深圳华声医疗技术股份有限公司
+    details: |
+      - Contributed to a color Doppler cardiac ultrasound product, optimizing image computation across OpenCL, OpenGL, and CPU workloads, including OpenCL kernels and CUDA operators.
+      - Led Conan-based software modularization and version management to improve maintainability and delivery of the ultrasound software system.
+  - role: C++ Development Engineer
+    time: 2022.08 - 2024.06
+    company: 国腾（广州）量子计算科技有限公司
+    details: |
+      - Developed the software suite for the Guangzhou-Foshan-Zhaoqing quantum communication backbone, covering QKD, QKM, QKMS, and host applications.
+      - Designed and implemented key management software across Windows and Linux using C++/Qt, gRPC, and HP-Socket, with SPI/UART communication to underlying hardware.
+  - role: Software Configuration Management Engineer
+    time: 2022.01 - 2022.08
+    company: ThunderSoft · 南京中科创达软件科技有限公司
+    details: |
+      - Built and maintained Jenkins continuous integration workflows, daily and verification build scripts, and project integration builds.
+      - Set up OpenGrok and Gerrit, maintained code submission checks, and integrated Coverity security scanning into the development workflow.
+  - role: Software R&D Engineer
+    time: 2013.05 - 2022.01
+    company: 南京西湾信息科技有限公司
+    details: |
+      - Developed technical prototypes, resolved engineering challenges, and designed system interfaces while coordinating integration across teams.
+      - Led prototyping work on face recognition using Gabor features and PCA, a message-queue-based concurrent futures trading engine, and Bitcoin source-code analysis using Qt, Boost, LevelDB, and OpenSSL.
+
+publications:
+  title: Publications
+  papers:
+    - title: Model and System Robustness in Distributed CNN Inference at the Edge
+      authors: Guo, X., Jiang, Q., Pimentel, A. D., & Stefanov, T.
+      conference: Integration, vol. 100, article 102299, 2025.
+    - title: "Easter: Learning to Split Transformers at the Edge Robustly"
+      authors: Guo, X., Jiang, Q., Shen, Y., Pimentel, A. D., & Stefanov, T.
+      conference: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), vol. 43, no. 11, pp. 3626-3637, 2024.
+    - title: "RobustDiCE: Robust and Distributed CNN Inference at the Edge"
+      authors: Guo, X., Jiang, Q., Pimentel, A. D., & Stefanov, T.
+      conference: 29th Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 26-31, IEEE, 2024.
+
+projects:
+  title: Selected Projects & Research
+  assignments:
+    - title: Robust Distributed Inference at the Edge
+      tagline: Research collaboration on distributed CNN and Transformer inference, with a focus on model and system robustness. Results published at ASP-DAC and in IEEE TCAD and Integration.
+    - title: Heterogeneous Computing for Ultrasound Imaging
+      tagline: "2024.06 - 2025.01 · Image acquisition, storage, and computation using C++/Qt, CUDA, and OpenCL on Windows; performance optimization and Conan-based modularization."
+    - title: Guangzhou-Foshan-Zhaoqing Quantum Communication Backbone
+      tagline: "2022.08 - 2024.06 · Architecture and implementation of cross-platform key communication and management software using C++/Qt, gRPC, and HP-Socket."
+    - title: Simulated Futures Trading Platform
+      tagline: "2019.03 - 2020.03 · C++ backend interfaces, a simulated trading engine, and external interface integration across Linux and Windows."
+    - title: Face Recognition System
+      tagline: "2013.06 - 2015.03 · OpenCV-based face recognition with PCA and LDA for feature reduction and classification."
 
 skills:
-    title: Skills
-    toolset:
-      - name: PyTorch
-        level: 90%
-      - name: Kaldi
-        level: 80%
-      - name: Python
-        level: 90%
-      - name: C & C++
-        level: 65%
+  title: Technical Expertise
+  toolset:
+    - name: C++ & Systems Engineering
+      details: C++, C, Python, Boost, Qt; cross-platform development on Linux and Windows.
+    - name: AI & Computer Vision
+      details: PyTorch, TensorFlow, OpenCV; CNN, Transformer, Mamba; model pruning, distributed inference, and robustness.
+    - name: Heterogeneous Computing
+      details: OpenCL, CUDA, OpenGL; kernel and operator optimization for image computation.
+    - name: Communication & Middleware
+      details: gRPC, HP-Socket, ZeroMQ, SNMP, MySQL; SPI/UART hardware communication.
+    - name: Software Delivery
+      details: Conan, Jenkins, Gerrit, OpenGrok, Coverity; modularization, version management, and continuous integration.

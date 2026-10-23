@@ -1,6 +1,6 @@
 /* ======= Base ======= */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Microsoft YaHei', 'PingFang SC', sans-serif;
     color: $text-color-secondary;
     background: $smoky-white;
     font-size: 14px;
@@ -80,6 +80,9 @@ p {
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
     .contact-list {
+        a {
+            overflow-wrap: anywhere;
+        }
         .fas, .fab {
             margin-right: 5px;
             font-size: 18px;
@@ -176,6 +179,11 @@ p {
         }
     }
     .upper-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 4px 16px;
         position: relative;
 	overflow: visible;
 //         overflow: hidden;
@@ -189,9 +197,7 @@ p {
         font-weight: 500;
     }
     .time {
-        position: absolute;
-        right: 0;
-        top: 0;
+        flex-shrink: 0;
         color: $text-grey;
     }
     .company, .university {
@@ -254,6 +260,46 @@ p {
     .level-bar-inner {
         height: 12px;
         background: lighten($theme-color, 15%);
+    }
+}
+
+.language-switch {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 24px;
+
+    a {
+        padding: 6px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 4px;
+        font-size: 14px;
+        line-height: 1.5;
+
+        &[aria-current="page"] {
+            background: #fff;
+            color: darken($theme-color, 15%);
+            font-weight: 700;
+        }
+
+        &:focus-visible {
+            outline: 2px solid #fff;
+            outline-offset: 3px;
+        }
+    }
+}
+
+.expertise-list {
+    .level-title {
+        display: block;
+        float: none;
+        width: auto;
+        margin-bottom: 6px;
+        color: $text-color;
+    }
+
+    .skill-details {
+        margin-bottom: 0;
     }
 }
 

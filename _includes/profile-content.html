@@ -1,0 +1,10 @@
+{% include career-profile.html %}
+{% include supervisor.html %}
+{% unless profile.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
+{% include experiences.html %}
+{% include publications.html %}
+{% include awards.html %}
+{% include projects.html %}
+{% include skills.html %}
