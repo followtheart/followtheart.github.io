@@ -88,8 +88,6 @@ projects:
       tagline: 围绕 CNN 与 Transformer 的边缘分布式推理开展学术合作，研究模型与系统鲁棒性，相关成果发表于 ASP-DAC、IEEE TCAD 与 Integration。
     - title: 彩色多普勒超声图像异构计算优化
       tagline: 2024.06 - 2025.01 · 基于 C++/Qt、CUDA 与 OpenCL，在 Windows 平台实现超声图像采集、存储与计算，负责性能调优及基于 Conan 的模块化。
-    - title: 广佛肇量子通信干线
-      tagline: 2022.08 - 2024.06 · 负责密钥通信与管理软件的架构设计和开发，基于 C++/Qt、gRPC 与 HP-Socket 实现 Windows、Linux 跨平台运行。
     - title: 模拟期货交易平台
       tagline: 2019.03 - 2020.03 · 负责 C++ 后台接口开发，实现模拟交易引擎与外部接口对接，支持 Linux、Windows 跨平台运行。
     - title: 人脸识别软件系统

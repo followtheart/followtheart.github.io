@@ -98,8 +98,6 @@ projects:
       tagline: Research collaboration on distributed CNN and Transformer inference, with a focus on model and system robustness. Results published at ASP-DAC and in IEEE TCAD and Integration.
     - title: Heterogeneous Computing for Ultrasound Imaging
       tagline: "2024.06 - 2025.01 · Image acquisition, storage, and computation using C++/Qt, CUDA, and OpenCL on Windows; performance optimization and Conan-based modularization."
-    - title: Guangzhou-Foshan-Zhaoqing Quantum Communication Backbone
-      tagline: "2022.08 - 2024.06 · Architecture and implementation of cross-platform key communication and management software using C++/Qt, gRPC, and HP-Socket."
     - title: Simulated Futures Trading Platform
       tagline: "2019.03 - 2020.03 · C++ backend interfaces, a simulated trading engine, and external interface integration across Linux and Windows."
     - title: Face Recognition System
